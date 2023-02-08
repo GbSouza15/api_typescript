@@ -38,6 +38,5 @@ btn.addEventListener('click', (e) => {
         .then(data => {
             let response = data.query.search
             createCards(response)
-            console.log(response)
         })
 })
